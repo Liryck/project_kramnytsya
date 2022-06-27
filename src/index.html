@@ -19,16 +19,18 @@
                     <img src="img/logo.png" alt="Ukraine">
                 </div>
                 <menu class="menu">
-                    <a href="#">Продукція</a>
-                    <a href="#">Інформація</a>
-                    <a href="#">Інструкція</a>
+                    <a href="#catalog">Продукція</a>
+                    <!-- <a href="#">Інформація</a> -->
+                    <a href="#instruction">Інструкція</a>
                 </menu>
                 <button class="button button_top">замовити</button>
             </header>
             <div class="promo__wrapper">
                 <h1 class="promo__header">патріотичні подарунки<br>від українських виробників</h1>
                 <div class="promo__subheader">купуй українське, а россійський корабель нехай іде нах#й</div>
-                <button class="button button_big">Перейти до каталогу</button>
+                <button class="button button_big">
+                    <a href="#catalog">Перейти до каталогу</a>
+                </button>
             </div>
         </div>
     </section>
@@ -37,7 +39,7 @@
             <h2 class="title">наші переваги</h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <img src="icons/emblem-of-ukraine.svg" alt="Ukraine">
+                    <img src="icons/fist-of-ukraine.svg" alt="Ukraine">
                     <div class="advantages__subtitle">підтримка</div>
                     <div class="advantages__descr">Купуючи нашу продукцію, Ви підтримуєте патріотичний дух, українських виробників та нашу економіку</div>
                 </div>
@@ -77,7 +79,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="conteiner">
             <h2 class="title">Продукція</h2>
             <!-- <ul class="catalog__tabs">
@@ -93,10 +95,10 @@
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <div class="catalog-item__slide">
-                                <img src="img/catalog/StickerPack1-min.png" alt="Стікери Слава Україні">
-                                <!-- <img src="img/catalog/russian-warship-min.jpg" alt="російський військовий корабель іди на хуй">
-                                <img src="img/catalog/photo-pizdec-rf-min.jpg" alt="піздець російській федерації">
-                                <img src="" alt=""> -->
+                                <div><img src="img/catalog/StickerPack1-min.png" alt="Стікери Слава Україні"></div>
+                                <!-- <div><img src="img/catalog/glory-of-ukraine.png" alt="наклейка Слава Україні"></div>
+                                <div><img src="img/catalog/russian-warship-min.jpg" alt="російський військовий корабель іди на хуй"></div>
+                                <div><img src="img/catalog/photo-pizdec-rf-min.jpg" alt="піздець російській федерації"></div> -->
                             </div>
                             <div class="catalog-item__subtitle">Стікер Пак №1</div>
                             <div class="catalog-item__descr">Стікери з транспортною плівкою для переносу зображення</div>
@@ -146,7 +148,7 @@
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
                             <div class="catalog-item__slide">
-                                <img src="img/catalog/stamp.png" alt="">
+                                <img src="img/catalog/stamp-min.png" alt="Наклейка Російський віськовий корабель">
                                 <!-- <img src="" alt="">
                                 <img src="" alt=""> -->
                             </div>
@@ -224,48 +226,48 @@
         </div>
     </section>
 
-    <section class="instruction">
+    <section class="instruction" id="instruction">
         <div class="conteiner">
             <h2 class="title">Інструкція по поклейці наліпок</h2>
             
             <div class="instruction__wrapper">
+                <img src="" alt="">
                 <div class="instruction__text">
                     <h3 class="title title_mini">Помити та знежирити поверхню</h3>
                     <div class="instruction__descr">
                         Помийте машину без воску, або знежирте поверхню для поклейки засобом для миття вікон або спиртом.
                     </div>
                 </div>
-                <img src="" alt="">
             </div>
             
             <div class="instruction__wrapper">
+                <img src="" alt="">
                 <div class="instruction__text">
                     <h3 class="title title_mini">Карткою розгладити транспортну плівку</h3>
                     <div class="instruction__descr">
                         Візьміть пластикову картку, покладіть наліпку на тверду рівну поверхню. Прогладьте наліпку карткою по монтажній плівці для кращого сцеплення елементів.
                     </div>
                 </div>
-                <img src="" alt="">
             </div>
             
             <div class="instruction__wrapper">
+                <img src="" alt="">
                 <div class="instruction__text">
                     <h3 class="title title_mini">Зняти частину підложки</h3>
                     <div class="instruction__descr">
                         Переверніть наліпку та зніміть та замніть 2-3 см підкладки (бумажна частина на якій розташовані елементи)
                     </div>
                 </div>
-                <img src="" alt="">
             </div>
             
             <div class="instruction__wrapper">
+                <img src="" alt="">
                 <div class="instruction__text">
                     <h3 class="title title_mini">Поклейка наліпки</h3>
                     <div class="instruction__descr">
                         Прикладіть наліпку до поверхні, розгладьте карткою по відкритій частині монтажної плівки. Знімайте по маленьку підкладку та рівномірно розглажуйте наліпку.
                     </div>
                 </div>
-                <img src="" alt="">
             </div>
         </div>
     </section>
@@ -273,7 +275,11 @@
     <footer class="footer">
         <div class="conteiner">
             <div class="footer__wrapper">
-                <div class="footer__subtitle">Слава Україні! Героям Слава! Смерть ворогам!</div>
+                <div class="footer__subtitle">
+                    <img src="icons/emblem-of-ukraine.svg" alt="">
+                    Слава Україні! Героям Слава! Смерть ворогам!
+                    <img src="icons/emblem-of-ukraine.svg" alt="">
+                </div>
                 <div class="footer-social">
                     <a href="https://www.instagram.com/kramnytsyaua" rel="nofollow" target="_blank">
                         <img src="icons/instagram.svg" alt="instagram">
@@ -286,6 +292,9 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
